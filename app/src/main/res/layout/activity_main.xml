@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.encounterfitness.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/water"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/udacityu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/udacityu"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacityu"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:text="Become Fluid!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textSize="60sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/white"
+        android:text="Udacity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="2465 Latham St\nMountain View, CA 94043\n650-555-5555"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
